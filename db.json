@@ -1,0 +1,499 @@
+{
+  "tickets": [
+    {
+      "id": "1",
+      "customer": {
+        "name": "Aarav Sharma",
+        "email": "aarav.sharma@example.com",
+        "avatar": ""
+      },
+      "subject": "Unable to reset account password",
+      "description": "I am unable to reset my password. The reset link opens correctly, but after entering a new password I am returned to the login page and cannot sign in.",
+      "priority": "High",
+      "status": "Open",
+      "createdAt": "2026-09-08T09:07:00Z",
+      "messages": [
+        {
+          "id": "1-1",
+          "sender": "customer",
+          "message": "I am unable to reset my password. Could you please help me resolve this?",
+          "timestamp": "2026-09-08T09:07:00Z"
+        },
+        {
+          "id": "1-2",
+          "sender": "support",
+          "message": "Thanks for contacting support. We have reviewed your request and are checking the relevant details.",
+          "timestamp": "2026-09-08T09:07:00Z"
+        },
+        {
+          "id": "1-3",
+          "sender": "customer",
+          "message": "Thank you. Please let me know if you need any additional information from my side.",
+          "timestamp": "2026-09-08T09:07:00Z"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "customer": {
+        "name": "Priya Nair",
+        "email": "priya.nair@example.com",
+        "avatar": ""
+      },
+      "subject": "Payment was charged twice",
+      "description": "My card appears to have been charged twice for the same subscription renewal. Please check the transactions and advise how the duplicate charge can be refunded.",
+      "priority": "High",
+      "status": "In Progress",
+      "createdAt": "2026-09-07T10:14:00Z",
+      "messages": [
+        {
+          "id": "2-1",
+          "sender": "customer",
+          "message": "My card appears to have been charged twice for the same subscription renewal. Could you please help me resolve this?",
+          "timestamp": "2026-09-07T10:14:00Z"
+        },
+        {
+          "id": "2-2",
+          "sender": "support",
+          "message": "Thanks for contacting support. We have reviewed your request and are checking the relevant details.",
+          "timestamp": "2026-09-07T10:14:00Z"
+        },
+        {
+          "id": "2-3",
+          "sender": "customer",
+          "message": "Thank you. Please let me know if you need any additional information from my side.",
+          "timestamp": "2026-09-07T10:14:00Z"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "customer": {
+        "name": "Rahul Mehta",
+        "email": "rahul.mehta@example.com",
+        "avatar": ""
+      },
+      "subject": "Dashboard page is loading slowly",
+      "description": "The dashboard takes more than 20 seconds to load after I sign in. Other websites are working normally, so I would like help investigating this.",
+      "priority": "Medium",
+      "status": "Resolved",
+      "createdAt": "2026-09-06T11:21:00Z",
+      "messages": [
+        {
+          "id": "3-1",
+          "sender": "customer",
+          "message": "The dashboard takes more than 20 seconds to load after I sign in. Could you please help me resolve this?",
+          "timestamp": "2026-09-06T11:21:00Z"
+        },
+        {
+          "id": "3-2",
+          "sender": "support",
+          "message": "Thanks for contacting support. We have reviewed your request and are checking the relevant details.",
+          "timestamp": "2026-09-06T11:21:00Z"
+        },
+        {
+          "id": "3-3",
+          "sender": "customer",
+          "message": "Thank you. Please let me know if you need any additional information from my side.",
+          "timestamp": "2026-09-06T11:21:00Z"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "customer": {
+        "name": "Ananya Iyer",
+        "email": "ananya.iyer@example.com",
+        "avatar": ""
+      },
+      "subject": "Cannot upload profile image",
+      "description": "Every time I try to upload a new profile image, the upload reaches 100% and then shows an error. I have tried both JPG and PNG files.",
+      "priority": "Medium",
+      "status": "Open",
+      "createdAt": "2026-09-05T12:28:00Z",
+      "messages": [
+        {
+          "id": "4-1",
+          "sender": "customer",
+          "message": "Every time I try to upload a new profile image, the upload reaches 100% and then shows an error. Could you please help me resolve this?",
+          "timestamp": "2026-09-05T12:28:00Z"
+        },
+        {
+          "id": "4-2",
+          "sender": "support",
+          "message": "Thanks for contacting support. We have reviewed your request and are checking the relevant details.",
+          "timestamp": "2026-09-05T12:28:00Z"
+        },
+        {
+          "id": "4-3",
+          "sender": "customer",
+          "message": "Thank you. Please let me know if you need any additional information from my side.",
+          "timestamp": "2026-09-05T12:28:00Z"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "customer": {
+        "name": "Vikram Singh",
+        "email": "vikram.singh@example.com",
+        "avatar": ""
+      },
+      "subject": "Need help changing subscription plan",
+      "description": "I would like to move to a different subscription plan and need clarification about whether the change takes effect immediately or at the next billing cycle.",
+      "priority": "Medium",
+      "status": "In Progress",
+      "createdAt": "2026-09-04T13:35:00Z",
+      "messages": [
+        {
+          "id": "5-1",
+          "sender": "customer",
+          "message": "I would like to move to a different subscription plan and need clarification about whether the change takes effect immediately or at the next billing cycle. Could you please help me resolve this?",
+          "timestamp": "2026-09-04T13:35:00Z"
+        },
+        {
+          "id": "5-2",
+          "sender": "support",
+          "message": "Thanks for contacting support. We have reviewed your request and are checking the relevant details.",
+          "timestamp": "2026-09-04T13:35:00Z"
+        },
+        {
+          "id": "5-3",
+          "sender": "customer",
+          "message": "Thank you. Please let me know if you need any additional information from my side.",
+          "timestamp": "2026-09-04T13:35:00Z"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "customer": {
+        "name": "Neha Gupta",
+        "email": "neha.gupta@example.com",
+        "avatar": ""
+      },
+      "subject": "Invoice download is not working",
+      "description": "When I click the download button for my latest invoice, nothing happens. I have tried in two different browsers with the same result.",
+      "priority": "Low",
+      "status": "Resolved",
+      "createdAt": "2026-09-03T14:42:00Z",
+      "messages": [
+        {
+          "id": "6-1",
+          "sender": "customer",
+          "message": "When I click the download button for my latest invoice, nothing happens. Could you please help me resolve this?",
+          "timestamp": "2026-09-03T14:42:00Z"
+        },
+        {
+          "id": "6-2",
+          "sender": "support",
+          "message": "Thanks for contacting support. We have reviewed your request and are checking the relevant details.",
+          "timestamp": "2026-09-03T14:42:00Z"
+        },
+        {
+          "id": "6-3",
+          "sender": "customer",
+          "message": "Thank you. Please let me know if you need any additional information from my side.",
+          "timestamp": "2026-09-03T14:42:00Z"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "customer": {
+        "name": "Rohan Kapoor",
+        "email": "rohan.kapoor@example.com",
+        "avatar": ""
+      },
+      "subject": "Email notifications are delayed",
+      "description": "Important email notifications are arriving several hours late. This is causing our team to miss updates that require a quick response.",
+      "priority": "Medium",
+      "status": "Open",
+      "createdAt": "2026-09-09T15:49:00Z",
+      "messages": [
+        {
+          "id": "7-1",
+          "sender": "customer",
+          "message": "Important email notifications are arriving several hours late. Could you please help me resolve this?",
+          "timestamp": "2026-09-09T15:49:00Z"
+        },
+        {
+          "id": "7-2",
+          "sender": "support",
+          "message": "Thanks for contacting support. We have reviewed your request and are checking the relevant details.",
+          "timestamp": "2026-09-09T15:49:00Z"
+        },
+        {
+          "id": "7-3",
+          "sender": "customer",
+          "message": "Thank you. Please let me know if you need any additional information from my side.",
+          "timestamp": "2026-09-09T15:49:00Z"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "customer": {
+        "name": "Sneha Reddy",
+        "email": "sneha.reddy@example.com",
+        "avatar": ""
+      },
+      "subject": "Account shows incorrect usage data",
+      "description": "My usage dashboard shows a much higher number than our internal records. Please help verify which activity is being counted.",
+      "priority": "High",
+      "status": "In Progress",
+      "createdAt": "2026-09-08T08:56:00Z",
+      "messages": [
+        {
+          "id": "8-1",
+          "sender": "customer",
+          "message": "My usage dashboard shows a much higher number than our internal records. Could you please help me resolve this?",
+          "timestamp": "2026-09-08T08:56:00Z"
+        },
+        {
+          "id": "8-2",
+          "sender": "support",
+          "message": "Thanks for contacting support. We have reviewed your request and are checking the relevant details.",
+          "timestamp": "2026-09-08T08:56:00Z"
+        },
+        {
+          "id": "8-3",
+          "sender": "customer",
+          "message": "Thank you. Please let me know if you need any additional information from my side.",
+          "timestamp": "2026-09-08T08:56:00Z"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "customer": {
+        "name": "Karan Malhotra",
+        "email": "karan.malhotra@example.com",
+        "avatar": ""
+      },
+      "subject": "Unable to invite team members",
+      "description": "I am an administrator but receive an error when trying to invite a new team member. The invite email is never sent.",
+      "priority": "High",
+      "status": "Open",
+      "createdAt": "2026-09-07T09:03:00Z",
+      "messages": [
+        {
+          "id": "9-1",
+          "sender": "customer",
+          "message": "I am an administrator but receive an error when trying to invite a new team member. Could you please help me resolve this?",
+          "timestamp": "2026-09-07T09:03:00Z"
+        },
+        {
+          "id": "9-2",
+          "sender": "support",
+          "message": "Thanks for contacting support. We have reviewed your request and are checking the relevant details.",
+          "timestamp": "2026-09-07T09:03:00Z"
+        },
+        {
+          "id": "9-3",
+          "sender": "customer",
+          "message": "Thank you. Please let me know if you need any additional information from my side.",
+          "timestamp": "2026-09-07T09:03:00Z"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "customer": {
+        "name": "Isha Patel",
+        "email": "isha.patel@example.com",
+        "avatar": ""
+      },
+      "subject": "Two-factor authentication code not received",
+      "description": "I enabled two-factor authentication but the verification code is not reaching my registered phone number, so I cannot access my account.",
+      "priority": "High",
+      "status": "Open",
+      "createdAt": "2026-09-06T10:10:00Z",
+      "messages": [
+        {
+          "id": "10-1",
+          "sender": "customer",
+          "message": "I enabled two-factor authentication but the verification code is not reaching my registered phone number, so I cannot access my account. Could you please help me resolve this?",
+          "timestamp": "2026-09-06T10:10:00Z"
+        },
+        {
+          "id": "10-2",
+          "sender": "support",
+          "message": "Thanks for contacting support. We have reviewed your request and are checking the relevant details.",
+          "timestamp": "2026-09-06T10:10:00Z"
+        },
+        {
+          "id": "10-3",
+          "sender": "customer",
+          "message": "Thank you. Please let me know if you need any additional information from my side.",
+          "timestamp": "2026-09-06T10:10:00Z"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "customer": {
+        "name": "Arjun Das",
+        "email": "arjun.das@example.com",
+        "avatar": ""
+      },
+      "subject": "Request to cancel annual subscription",
+      "description": "I would like to cancel our annual subscription and understand what happens to our data and remaining billing period.",
+      "priority": "Low",
+      "status": "Resolved",
+      "createdAt": "2026-09-05T11:17:00Z",
+      "messages": [
+        {
+          "id": "11-1",
+          "sender": "customer",
+          "message": "I would like to cancel our annual subscription and understand what happens to our data and remaining billing period. Could you please help me resolve this?",
+          "timestamp": "2026-09-05T11:17:00Z"
+        },
+        {
+          "id": "11-2",
+          "sender": "support",
+          "message": "Thanks for contacting support. We have reviewed your request and are checking the relevant details.",
+          "timestamp": "2026-09-05T11:17:00Z"
+        },
+        {
+          "id": "11-3",
+          "sender": "customer",
+          "message": "Thank you. Please let me know if you need any additional information from my side.",
+          "timestamp": "2026-09-05T11:17:00Z"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "customer": {
+        "name": "Meera Joshi",
+        "email": "meera.joshi@example.com",
+        "avatar": ""
+      },
+      "subject": "Mobile view layout issue",
+      "description": "Some controls overlap each other on my mobile device, making the dashboard difficult to use. I can provide screenshots if needed.",
+      "priority": "Medium",
+      "status": "In Progress",
+      "createdAt": "2026-09-04T12:24:00Z",
+      "messages": [
+        {
+          "id": "12-1",
+          "sender": "customer",
+          "message": "Some controls overlap each other on my mobile device, making the dashboard difficult to use. Could you please help me resolve this?",
+          "timestamp": "2026-09-04T12:24:00Z"
+        },
+        {
+          "id": "12-2",
+          "sender": "support",
+          "message": "Thanks for contacting support. We have reviewed your request and are checking the relevant details.",
+          "timestamp": "2026-09-04T12:24:00Z"
+        },
+        {
+          "id": "12-3",
+          "sender": "customer",
+          "message": "Thank you. Please let me know if you need any additional information from my side.",
+          "timestamp": "2026-09-04T12:24:00Z"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "customer": {
+        "name": "Aditya Verma",
+        "email": "aditya.verma@example.com",
+        "avatar": ""
+      },
+      "subject": "Integration is returning an authorization error",
+      "description": "Our integration worked yesterday but now returns an authorization error for every request. No credentials were intentionally changed.",
+      "priority": "High",
+      "status": "In Progress",
+      "createdAt": "2026-09-03T13:31:00Z",
+      "messages": [
+        {
+          "id": "13-1",
+          "sender": "customer",
+          "message": "Our integration worked yesterday but now returns an authorization error for every request. Could you please help me resolve this?",
+          "timestamp": "2026-09-03T13:31:00Z"
+        },
+        {
+          "id": "13-2",
+          "sender": "support",
+          "message": "Thanks for contacting support. We have reviewed your request and are checking the relevant details.",
+          "timestamp": "2026-09-03T13:31:00Z"
+        },
+        {
+          "id": "13-3",
+          "sender": "customer",
+          "message": "Thank you. Please let me know if you need any additional information from my side.",
+          "timestamp": "2026-09-03T13:31:00Z"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "customer": {
+        "name": "Kavya Menon",
+        "email": "kavya.menon@example.com",
+        "avatar": ""
+      },
+      "subject": "Exported report contains missing rows",
+      "description": "The CSV report export completed successfully, but several rows visible in the dashboard are missing from the downloaded file.",
+      "priority": "Medium",
+      "status": "Resolved",
+      "createdAt": "2026-09-09T14:38:00Z",
+      "messages": [
+        {
+          "id": "14-1",
+          "sender": "customer",
+          "message": "The CSV report export completed successfully, but several rows visible in the dashboard are missing from the downloaded file. Could you please help me resolve this?",
+          "timestamp": "2026-09-09T14:38:00Z"
+        },
+        {
+          "id": "14-2",
+          "sender": "support",
+          "message": "Thanks for contacting support. We have reviewed your request and are checking the relevant details.",
+          "timestamp": "2026-09-09T14:38:00Z"
+        },
+        {
+          "id": "14-3",
+          "sender": "customer",
+          "message": "Thank you. Please let me know if you need any additional information from my side.",
+          "timestamp": "2026-09-09T14:38:00Z"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "customer": {
+        "name": "Siddharth Rao",
+        "email": "siddharth.rao@example.com",
+        "avatar": ""
+      },
+      "subject": "Feature request: custom notification rules",
+      "description": "It would be useful to create notification rules based on custom conditions instead of receiving every type of alert.",
+      "priority": "Low",
+      "status": "Open",
+      "createdAt": "2026-09-08T15:45:00Z",
+      "messages": [
+        {
+          "id": "15-1",
+          "sender": "customer",
+          "message": "It would be useful to create notification rules based on custom conditions instead of receiving every type of alert. Could you please help me resolve this?",
+          "timestamp": "2026-09-08T15:45:00Z"
+        },
+        {
+          "id": "15-2",
+          "sender": "support",
+          "message": "Thanks for contacting support. We have reviewed your request and are checking the relevant details.",
+          "timestamp": "2026-09-08T15:45:00Z"
+        },
+        {
+          "id": "15-3",
+          "sender": "customer",
+          "message": "Thank you. Please let me know if you need any additional information from my side.",
+          "timestamp": "2026-09-08T15:45:00Z"
+        }
+      ]
+    }
+  ]
+}
