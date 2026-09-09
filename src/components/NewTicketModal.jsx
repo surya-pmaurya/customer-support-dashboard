@@ -111,7 +111,7 @@ export default function NewTicketModal() {
       {/* Modal */}
       {isOpen && (
         <div
-          className="fixed inset-0 z-[9999] flex h-[100dvh] w-full items-center justify-center"
+          className="fixed inset-0 z-[9999] h-[100dvh] w-full overflow-hidden"
           role="presentation"
         >
           {/* Backdrop */}
@@ -123,7 +123,7 @@ export default function NewTicketModal() {
           />
 
           {/* Scroll Container */}
-          <div className="relative z-10 flex h-full w-full justify-center overflow-y-auto overscroll-contain p-3 sm:items-center sm:p-6">
+          <div className="relative z-10 flex h-full w-full items-center justify-center p-3 sm:p-6">
             {/* Modal Dialog */}
             <section
               role="dialog"
@@ -131,22 +131,23 @@ export default function NewTicketModal() {
               aria-labelledby="new-ticket-title"
               data-testid="new-ticket-modal"
               className="
-                relative
-                z-20
-                my-auto
-                flex
-                w-full
-                max-w-2xl
-                flex-col
-                overflow-hidden
-                rounded-2xl
-                border
-                border-white/10
-                bg-[#11141D]
-                shadow-2xl
-                shadow-black/60
-                sm:max-h-[calc(100dvh-3rem)]
-              "
+  relative
+  z-20
+  flex
+  h-auto
+  max-h-[calc(100dvh-1.5rem)]
+  w-full
+  max-w-2xl
+  flex-col
+  overflow-hidden
+  rounded-2xl
+  border
+  border-white/10
+  bg-[#11141D]
+  shadow-2xl
+  shadow-black/60
+  sm:max-h-[calc(100dvh-3rem)]
+"
             >
               {/* Modal Header */}
               <div className="flex shrink-0 items-start justify-between border-b border-white/10 bg-[#11141D] p-5 sm:p-6">
@@ -180,7 +181,15 @@ export default function NewTicketModal() {
               {/* Scrollable Form Area */}
               <form
                 onSubmit={handleSubmit}
-                className="flex-1 overflow-y-auto overscroll-contain p-5 sm:p-6"
+                className="
+    min-h-0
+    flex-1
+    overflow-y-auto
+    overscroll-contain
+    p-5
+    sm:p-6
+    [-webkit-overflow-scrolling:touch]
+  "
               >
                 <div className="space-y-5">
                   {/* Form Error */}
