@@ -17,6 +17,7 @@ A responsive customer support dashboard built as a frontend technical task. The 
 - Loading, API error, retry, empty, and empty-filtered states
 - Responsive desktop, tablet, and mobile layout
 - Accessible labels and keyboard focus styles
+- Add New Tickets
 
 ## Technologies
 
@@ -117,4 +118,4 @@ Search and filtering are combined in `App.jsx` with a memoized derived ticket li
 
 ## AI tools used
 
-AI tools were used for development assistance, code review, and documentation. The submitted code should still be understood and reviewed by the developer before submission.
+AI tools were used for development assistance, code review, and documentation.
