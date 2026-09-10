@@ -17,7 +17,7 @@ A responsive customer support dashboard built as a frontend technical task. The 
 - Loading, API error, retry, empty, and empty-filtered states
 - Responsive desktop, tablet, and mobile layout
 - Accessible labels and keyboard focus styles
-- Add New Tickets
+- Add New Tickets with full of details 
 
 ## Technologies
 
@@ -90,6 +90,7 @@ src/
 │   ├── TicketStatusBadge.jsx
 │   ├── PriorityBadge.jsx
 │   ├── TicketDetails.jsx
+|   |--- NewTicketModel.jsz
 │   ├── Loading.jsx
 │   ├── ErrorState.jsx
 │   └── EmptyState.jsx
