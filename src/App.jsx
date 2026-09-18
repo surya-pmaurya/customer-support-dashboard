@@ -1,4 +1,5 @@
 import { useEffect, useMemo } from "react";
+import { Analytics } from "@vercel/analytics/react";
 import Header from "./components/Header";
 import StatsCards from "./components/StatsCards";
 import FilterBar from "./components/FilterBar";
@@ -67,6 +68,7 @@ export default function App() {
         )}
       </main>
       <TicketDetails />
+      <Analytics />
     </div>
   );
 }
